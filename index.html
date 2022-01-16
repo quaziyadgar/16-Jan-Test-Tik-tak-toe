@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <main>
+        <h1>TIC TAC TOE</h1>
+
+        <!-- Game Instructions -->
+        <p id="ins">Game starts by just Tap on 
+            box<br><br>First Player starts as 
+            <b>Player X</b><br>And<br>Second 
+            Player as <b>Player 0</b>
+        </p>
+    
+        <div>
+            <input type="text" id="b1" readonly onclick="myfunc1();func();">
+            <input type="text" id="b2" readonly onclick="myfunc2();func();">
+            <input type="text" id="b3" readonly onclick="myfunc3();func();">
+        </div>
+        <div>
+            <input type="text" id="b4" readonly onclick="myfunc4();func();">
+            <input type="text" id="b5" readonly onclick="myfunc5();func();">
+            <input type="text" id="b6" readonly onclick="myfunc6();func();">
+        </div>
+        <div>
+            <input type="text" id="b7" readonly onclick="myfunc7();func();">
+            <input type="text" id="b8" readonly onclick="myfunc8();func();">
+            <input type="text" id="b9" readonly onclick="myfunc9();func();">
+        </div>
+        <div>
+            <p id="print"></p>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
